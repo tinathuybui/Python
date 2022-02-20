@@ -16,8 +16,12 @@ if (n % 2) == 0:# to print even numbers
             print("Not Weird")
     else:
         print("Weird")
-        
- 2.
+```
+
+2.
+ 
+ 
+```python
   n = int(raw_input())
     for i in range(n):
         print(i**2)# to print square of each numbers
