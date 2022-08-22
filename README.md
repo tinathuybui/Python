@@ -25,7 +25,14 @@ a. Integer: Round numbers
 b. Float: numbers with decimala
 
 2. String 
+3. Boolean: True or False data
+4. List: used to store multiple items in a single variable. List items are ordered, changeable, and allow duplicate values.
 
+Example:
+
+"">>> thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+>>> print(thislist)
+['apple', 'banana', 'cherry', 'apple', 'cherry']""
 
 
 
