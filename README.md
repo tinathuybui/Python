@@ -30,10 +30,8 @@ b. Float: numbers with decimala
 
 Example:
 
-"">>> thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+```
+>>> thislist = ["apple", "banana", "cherry", "apple", "cherry"]
 >>> print(thislist)
-['apple', 'banana', 'cherry', 'apple', 'cherry']""
-
-
-
+['apple', 'banana', 'cherry', 'apple', 'cherry']
 ```
