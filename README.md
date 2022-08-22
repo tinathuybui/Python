@@ -68,7 +68,7 @@ Example: duplicate value will be ignored.
 {'cherry', 'banana', 'apple'}
 ```
 - use type () command to check data types:
-- 
+
 ```>>> type ((1,2,4,10))
 <class 'tuple'>
 ```
