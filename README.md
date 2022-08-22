@@ -35,3 +35,40 @@ Example:
 >>> print(thislist)
 ['apple', 'banana', 'cherry', 'apple', 'cherry']
 ```
+5. Dictionary: an unordered collection of data in a key value pair format.
+
+Example:
+
+```
+>>> thisdict = {
+...   "brand": "Ford",
+...   "model": "Mustang",
+...   "year": 1964
+... }
+>>> print(thisdict)
+{'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+>>>
+```
+6. Tuple: similar like list but cannot modified once it has been created. Tutples are written with round brackets.
+
+Example:
+
+```
+>>> thistuple = ("apple", "banana", "cherry")
+>>> print(thistuple)
+('apple', 'banana', 'cherry')
+>>>
+```
+7. Set: is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+
+Example: duplicate value will be ignored. 
+```
+>>> thisset = {"apple", "banana", "cherry", "apple"}
+>>> print(thisset)
+{'cherry', 'banana', 'apple'}
+```
+- use type () command to check data types:
+- 
+```>>> type ((1,2,4,10))
+<class 'tuple'>
+```
