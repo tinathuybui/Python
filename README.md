@@ -17,8 +17,14 @@ python --version
 Noted: use * to represent multiply in python not x
        ** is the exponential operator. Eg 3**2 = 3^2 = 3*3
 
-- to start a comment in python use #
+- to start a comment in python use #. For multiple comments, write them in between two triple quotes set """
 - python file has an extension .py
+- different data types in python:
+1. Number
+a. Integer: Round numbers
+b. Float: numbers with decimala
+
+2. String 
 
 
 
