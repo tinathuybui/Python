@@ -72,3 +72,10 @@ Example: duplicate value will be ignored.
 ```>>> type ((1,2,4,10))
 <class 'tuple'>
 ```
+Day 2:
+
+List of python build-in function:
+
+https://docs.python.org/3.9/library/functions.html
+
+
