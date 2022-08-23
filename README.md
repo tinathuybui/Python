@@ -88,12 +88,24 @@ https://docs.python.org/3.9/library/functions.html
 3. can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 4. case-sensitive 
 
-Example of valid variable name:
+- Example of valid variable name:
 firstname
 last_name
 
-Example of invalid variable name:
+- Example of invalid variable name:
 first-name
 last-name
 
+- Casting is converting one data type to another data type:
 
+- Example convert string to interger and string to float:
+
+```
+>>> number_string=234.56
+>>> print('number_integer',int(number_string))
+number_integer 234
+```
+```
+>>> print('number_float', float(number_string))
+number_float 234.56
+```
