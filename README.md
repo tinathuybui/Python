@@ -74,8 +74,26 @@ Example: duplicate value will be ignored.
 ```
 Day 2:
 
-List of python build-in function:
+- List of python build-in function:
 
 https://docs.python.org/3.9/library/functions.html
+
+
+- Variables are containers for storing data values. 
+
+- Python Variable Rules:
+
+1. must start with a letter or underscore character
+2. cannot start with a number
+3. can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+4. case-sensitive 
+
+Example of valid variable name:
+firstname
+last_name
+
+Example of invalid variable name:
+first-name
+last-name
 
 
