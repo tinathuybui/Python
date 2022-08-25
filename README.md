@@ -109,4 +109,39 @@ number_integer 234
 >>> print('number_float', float(number_string))
 number_float 234.56
 ```
+Day 3:
+
+- Boolean represents one of two values: True and False with the first letter should be capital.
+- Different types of opperators:
+Link to examples of different typea of operators:
+https://www.w3schools.com/python/python_operators.asp
+
+1. Assignment operators:
+
+They are used to assign values to variables. 
+
+2. Arithmetic operators:
+
+They are used with numberic values to perform commmon mathematical operators.
+
+Addition(+): a + b
+Subtraction(-): a - b
+Multiplication(*): a * b
+Division(/): a / b
+Modulus(%): a % b
+Floor division(//): a // b
+Exponentiation(**): a ** b
+
+3. Comparasion operators:
+
+They are used to compare two values and check if a value is greater or less or equal to other value.
+
+4. Logical operators:
+
+They are used to combine conditional statement. Key words are and, or and not.
+
+
+
+
+
 
