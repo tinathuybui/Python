@@ -140,8 +140,20 @@ They are used to compare two values and check if a value is greater or less or e
 
 They are used to combine conditional statement. Key words are and, or and not.
 
+Day 4:
 
+- Strings are any data type written as a text. Strings are surrounded by single, double or triple quotes. 
 
+- String Concatenarion is merging strings together.
+
+Eg:
+```
+>>> first_name='Tina'
+>>> last_name='Bui'
+>>> full_name=first_name + ' ' +last_name
+>>> print(full_name)
+```
+- escape sequences
 
 
 
