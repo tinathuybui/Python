@@ -267,3 +267,11 @@ name = 'Tina_Bui'
 Ta = name[0:5:3] 
 print(Ta)
 ```
+- String methods
+
+Below are example of string methods help to format strings
+
+      capitalize(): Converts the first character of the string to capital letter
+
+
+
