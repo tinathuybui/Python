@@ -144,7 +144,7 @@ Day 4:
 
 - Strings are any data type written as a text. Strings are surrounded by single, double or triple quotes. 
 
-- String Concatenarion is merging strings together.
+- String Concatenation is merging strings together.
 
 Eg:
 ```
@@ -153,7 +153,56 @@ Eg:
 >>> full_name=first_name + ' ' +last_name
 >>> print(full_name)
 ```
-- escape sequences
+- Escape sequences:  \ followed by a character is an escape sequence.
 
+\n: new line
+\t: Tab means(8 spaces)
+\\: Back slash
+\': Single quote (')
+\": Double quote (")
 
+Eg:
 
+print('How are you?\nAnd you ?')
+
+- String format:
+
+Old Style String Formatting (% Operator):
+%s - String (or any object with a string representation, like numbers)
+%d - Integers
+%f - Floating point numbers
+"%.number of digitsf" - Floating point numbers with fixed precision
+
+Eg:
+```
+base = 2
+height = 4 
+area = 1/2 * base * height
+formated_string = 'The area of triangle with base = %d and height = %d is %d.' %(base, height, area)
+print(formated_string)
+```
+
+New Style String Formatting (str.format)(python version 3)
+Eg:
+
+```
+base = 2
+height = 4 
+area = 1/2 * base * height
+formated_string = 'The area of triangle with base = {} and height = {} is {}'.format(base, height, area)
+print(formated_string)
+```
+
+String Interpolation / f-Strings (Python 3.6+)
+
+String start with f - f.string and data can be injected in their corresponding position.
+
+Eg:
+```
+a = 2
+b = 4
+print(f'1/2 * {a} * {b} = {1/2*a*b}')
+```
+- Python Strings as Sequences of Characters
+
+Unpacking Characters
