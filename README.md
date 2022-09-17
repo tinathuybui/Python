@@ -211,3 +211,12 @@ print(f'1/2 * {a} * {b} = {1/2*a*b}')
 - Python Strings as Sequences of Characters
 
 Unpacking Characters
+
+```
+name = 'Tina'
+a,b,c,d, = name#
+print(a)
+print(b) 
+print(c) 
+print(d) 
+```
