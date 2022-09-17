@@ -271,7 +271,9 @@ print(Ta)
 
 Below are example of string methods help to format strings
 
-      capitalize(): Converts the first character of the string to capital letter
+capitalize(): Converts the first character of the string to capital letter
+
+
 
 
 
