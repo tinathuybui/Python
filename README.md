@@ -1,7 +1,7 @@
 
 # Python
 
-Day 1:
+## Day 1:
 
 - Commmand to check python version 
 
@@ -72,7 +72,7 @@ Example: duplicate value will be ignored.
 ```>>> type ((1,2,4,10))
 <class 'tuple'>
 ```
-Day 2:
+## Day 2:
 
 - List of python build-in function:
 
@@ -109,7 +109,7 @@ number_integer 234
 >>> print('number_float', float(number_string))
 number_float 234.56
 ```
-Day 3:
+## Day 3:
 
 - Boolean represents one of two values: True and False with the first letter should be capital.
 - Different types of opperators:
@@ -140,7 +140,7 @@ They are used to compare two values and check if a value is greater or less or e
 
 They are used to combine conditional statement. Key words are and, or and not.
 
-Day 4:
+## Day 4:
 
 - Strings are any data type written as a text. Strings are surrounded by single, double or triple quotes. 
 
