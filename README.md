@@ -156,10 +156,15 @@ Eg:
 - Escape sequences:  \ followed by a character is an escape sequence.
 
 \n: new line
+
 \t: Tab means(8 spaces)
+
 \\: Back slash
+
 \': Single quote (')
+
 \": Double quote (")
+
 
 Eg:
 
