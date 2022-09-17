@@ -213,10 +213,57 @@ print(f'1/2 * {a} * {b} = {1/2*a*b}')
 Unpacking Characters
 
 ```
-name = 'Tina'
-a,b,c,d, = name#
+name = 'Tina_Bui'
+a,b,c,d,e,f,g,h = name#
 print(a)
 print(b) 
 print(c) 
 print(d) 
+print(e)
+print(f) 
+print(g) 
+print(h)
+```
+Accessing Characters in Strings by Index
+In Python counting starts from 0, the first letter of the string is 0 and the last letter of the string is the length of the string - 1
+
+```
+name = 'Tina_Bui'
+first_letter = name [0]
+print(first_letter)
+last_letter = name[-1]
+print(last_letter)
+```
+
+Slicing Python Strings
+
+Slice string into substring 
+
+
+```
+name = 'Tina_Bui'
+first_three = name [0:3]
+print(first_three)
+last_three = name[5:8]
+print(last_three)
+# Another way
+last_three = name[-3:]
+print(last_three)
+```
+
+Reverse a string
+```
+name = 'Tina_Bui'
+print(name[::-1])
+
+```
+Skipping Characters While Slicing
+```
+a_string[start:stop:step]
+```
+
+```
+name = 'Tina_Bui'
+Ta = name[0:5:3] 
+print(Ta)
 ```
