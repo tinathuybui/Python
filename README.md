@@ -150,7 +150,7 @@ Eg:
 ```
 >>> first_name='Tina'
 >>> last_name='Bui'
->>> full_name=first_name + ' ' +last_name
+>>> full_name=first_name + " " + last_name
 >>> print(full_name)
 ```
 - Escape sequences:  \ followed by a character is an escape sequence.
