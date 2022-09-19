@@ -271,4 +271,15 @@ print(Ta)
 
 https://www.w3schools.com/python/python_ref_string.asp
 
+Note: by default default Python‘s print() function ends with a newline
+
+To print on the same line use end = " "
+
+Eg:
+```
+company = 'Coding For All'
+x = company.split()
+for company in x:
+    print(company [0], end="")
+```
 
