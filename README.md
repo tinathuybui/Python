@@ -343,4 +343,88 @@ list = ["chanel", 5000, False, 1, "high_end"]
 
 ```
 
+- Accessing List Items Using Positive Indexing
+```
+wish_list = ["chanel", "gucci", "dior"]
 
+first_item = wish_list[0]
+
+```
+- Accessing List Items Using Negative Indexing
+
+-1 refers to the last item, -2 refers to the second last item
+
+```
+wish_list = ["chanel", "gucci", "dior"]
+
+second_item = wish_list[-2]
+
+```
+
+- Unpacking List Items
+
+If you want to unpack the first few elements of a list and don’t care about the other elements, you can:
+
++ First, unpack the needed elements to variables.
++ Second, pack the leftover elements into a new list and assign it to another variable.
+By putting the asterisk (*) in front of a variable name, you’ll pack the leftover elements into a list and assign them to a variable. 
+
+Eg:
+```
+colors = ['red', 'blue', 'green']
+red, blue, *other = colors
+
+print(red)
+print(blue)
+print(other)
+```
+
+Output:
+```
+red
+blue
+['green']
+
+```
+https://www.pythontutorial.net/python-basics/python-unpack-list/
+
+- Slicing Items from a List
+We can specify a range of indexes by specifying the start, end and step, the return value will be a new list. (default values for start = 0, end = len(lst) - 1 (last item), step = 1)
+Eg:
+
+```
+wish_list = ["chanel", "gucci", "dior", "ysl"]
+full_wish_list = wish_list[0:4] # it returns all values
+# this will also give the same result as the one above
+full_wish_list = wish_list[0:] # if we don't set where to stop it takes all the rest
+gucci_dior = wish_list[1:3] # it does not include the first index
+gucci_dior_ysl = wish_list[1:]
+gucci_ysl = wish_list[::2] # here we used a 3rd argument, step. It will take every 2cnd item
+
+```
+
+- Modifying Lists
+
+Eg:
+```
+wish_list = ["chanel", "gucci", "dior", "ysl"]
+wish_list[0] = 'zara'
+print(wish_list)       #  ['zara', 'gucci', 'dior','ysl']
+last_index = len(wish_list - 1
+wish_list[last_index] = 'aje'
+print(fwish_list)        #  ['chanel', 'gucci', 'dior', 'aje']
+
+```
+- Checking Items in a List
+- Adding Items to a List
+- Inserting Items into a List
+- Removing Items from a List
+Removing Items Using Pop
+Removing Items Using Del
+- Clearing List Items
+- Copying a List
+- Joining Lists
+- Counting Items in a List
+- Finding Index of an Item
+- Reversing a List
+- Sorting List Items
