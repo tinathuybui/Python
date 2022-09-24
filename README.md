@@ -534,5 +534,27 @@ lst = ['item1', 'item2']
 lst.count(item)
 ```
 - Finding Index of an Item
+```
+# syntax
+lst = ['item1', 'item2']
+lst.index(item)
+```
 - Reversing a List
+```
+# syntax
+lst = ['item1', 'item2']
+lst.reverse()
+```
+
 - Sorting List Items
+
+sort(): this method modifies the original list  in ascending order
+```
+# syntax
+lst = ['item1', 'item2']
+lst.sort()                # ascending
+lst.sort(reverse=True)    # descending
+```
+sorted(): returns the ordered list without modifying the original list
+
+
