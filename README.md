@@ -283,4 +283,64 @@ for company in x:
     print(company [0], end="")
 ```
 
-#Day 5
+## Day 5:
+
+There are 4 buil-in data types in Python used to stored data namely: list, tuple. set, dictionary.
+
+They are collection which are:
+
+List:
+- ordered 
+- changeable
+- allows duplicate members
+- can be empty or have different data type items
+- indexed, the first item has index [0]
+
+Tutple
+- ordered
+- unchangeable or unmodifiable(imutable)
+- allow duplicate members
+
+Set
+- unordered
+- un-indexed and unmodofiable
+- allow new items to the set
+- not alllow duplicate members
+
+Dictionary:
+- unordered
+- changeable(modifiable) and indexed
+- not alllow duplicate members
+
+How to creat list:
+
+- Using list built-in function
+Eg:
+
+```
+x = list(('chanel', 'gucci', 'dior'))
+
+print(x)
+
+````
+- created using square brackets:
+
+Eg:
+
+```
+wish_list = ["chanel", "gucci", "dior"]
+print(wish_list)
+```
+
+```
+list = [] # empty list
+print(list)
+```
+
+- Lists can have items of different data types
+```
+list = ["chanel", 5000, False, 1, "high_end"]
+
+```
+
+
