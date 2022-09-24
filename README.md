@@ -439,15 +439,100 @@ print(wish_list)  #['chanel', 'gucci', 'dior', 'ysl','zara']
 ```
 
 - Inserting Items into a List
-
+```
+# syntax # use insert() method to insert a single item at a specified index in a list. Note that other items are shifted to the right. The insert() methods takes two arguments:index and an item to insert
+lst = ['item1', 'item2']
+lst.insert(index, item)
+```
+```
+wish_list = ["chanel", "gucci", "dior", "ysl"]
+wish_list.insert(2, 'zara') 
+print(wish_list)           # ['chanel', 'gucci', 'zara', 'dior', 'ysl']
+```
 
 - Removing Items from a List
+```
+# syntax 
+lst = ['item1', 'item2']
+lst.remove(item)
+```
 Removing Items Using Pop
+
+```
+# syntax# pop() method removes the specified index, (or the last item if index is not specified)
+lst = ['item1', 'item2']
+lst.pop()       # last item
+lst.pop(index)
+
+```
+Eg:
+
+```
+wish_list = ["chanel", "gucci", "dior", "ysl"]
+wish_list.pop()
+print(wish_list       # ['chanel', 'gucci', 'dior']
+```
+
 Removing Items Using Del
+
+```
+# syntax
+lst = ['item1', 'item2']
+del lst[index] # only a single item
+del lst        # to delete the list completely
+
+```
+Eg:
+
+```
+wish_list = ["chanel", "gucci", "dior", "ysl"]
+del wish_list[1:3]     # this deletes items between given indexes, so it does not delete the item with index 3!
+print(wish_list)       # ['chanel', 'ysl']
+
+```
 - Clearing List Items
+
+```
+# syntax #empties the list
+lst = ['item1', 'item2']
+lst.clear()
+
+```
+Eg:
+
+```
+wish_list = ["chanel", "gucci", "dior", "ysl"]
+wish_list.clear()
+print(wish_list)  #[]
+```
 - Copying a List
+```
+# syntax
+lst = ['item1', 'item2']
+lst_copy = lst.copy()
+```
+lst_copy is a reference of lst, any changes make in lst_copy  will also modify the original.
+
 - Joining Lists
+```
+Plus Operator (+)
+# syntax
+list3 = list1 + list2
+```
+Joining using extend() method
+```
+# syntax
+list1 = ['item1', 'item2']
+list2 = ['item3', 'item4', 'item5']
+list1.extend(list2)
+```
+
 - Counting Items in a List
+```
+# syntax #count() method returns the number of times an item appears in a list
+lst = ['item1', 'item2']
+lst.count(item)
+```
 - Finding Index of an Item
 - Reversing a List
 - Sorting List Items
