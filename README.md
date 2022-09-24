@@ -416,8 +416,31 @@ print(fwish_list)        #  ['chanel', 'gucci', 'dior', 'aje']
 
 ```
 - Checking Items in a List
+
+Eg:
+```
+wish_list = ["chanel", "gucci", "dior", "ysl"]
+does_exist = 'channel' in wish_list
+print(does_exist)  # True
+does_exist = 'zara' in wish_list
+print(does_exist)  # False
+```
+
 - Adding Items to a List
+```
+# syntax
+lst = list()
+lst.append(item) #To add item to the end of an existing list
+```
+```
+wish_list = ["chanel", "gucci", "dior", "ysl"]
+wish_list.append('zara')
+print(wish_list)  #['chanel', 'gucci', 'dior', 'ysl','zara']
+```
+
 - Inserting Items into a List
+
+
 - Removing Items from a List
 Removing Items Using Pop
 Removing Items Using Del
