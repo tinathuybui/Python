@@ -1,5 +1,8 @@
-
-# Python
+* [Day 1:](#day-1)
+* [Day 2:](#day-2)
+* [Day 3:](#day-3)
+* [Day 4:](#day-4)
+* [Day 5:](#day-5)
 
 ## Day 1:
 
@@ -53,7 +56,7 @@ Example:
 
 Example:
 
-```
+```py
 >>> thistuple = ("apple", "banana", "cherry")
 >>> print(thistuple)
 ('apple', 'banana', 'cherry')
@@ -62,7 +65,8 @@ Example:
 7. Set: is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 
 Example: duplicate value will be ignored. 
-```
+
+```py
 >>> thisset = {"apple", "banana", "cherry", "apple"}
 >>> print(thisset)
 {'cherry', 'banana', 'apple'}
@@ -100,7 +104,7 @@ last-name
 
 - Example convert string to interger and string to float:
 
-```
+```py
 >>> number_string=234.56
 >>> print('number_integer',int(number_string))
 number_integer 234
@@ -147,7 +151,8 @@ They are used to combine conditional statement. Key words are and, or and not.
 - String Concatenation is merging strings together.
 
 Eg:
-```
+
+```py
 >>> first_name='Tina'
 >>> last_name='Bui'
 >>> full_name=first_name + " " + last_name
@@ -179,7 +184,8 @@ Old Style String Formatting (% Operator):
 "%.number of digitsf" - Floating point numbers with fixed precision
 
 Eg:
-```
+
+```py
 base = 2
 height = 4 
 area = 1/2 * base * height
@@ -190,7 +196,7 @@ print(formated_string)
 New Style String Formatting (str.format)(python version 3)
 Eg:
 
-```
+```py
 base = 2
 height = 4 
 area = 1/2 * base * height
@@ -203,7 +209,8 @@ String Interpolation / f-Strings (Python 3.6+)
 String start with f - f.string and data can be injected in their corresponding position.
 
 Eg:
-```
+
+```py
 a = 2
 b = 4
 print(f'1/2 * {a} * {b} = {1/2*a*b}')
@@ -212,7 +219,7 @@ print(f'1/2 * {a} * {b} = {1/2*a*b}')
 
 Unpacking Characters
 
-```
+```py
 name = 'Tina_Bui'
 a,b,c,d,e,f,g,h = name#
 print(a)
@@ -227,7 +234,7 @@ print(h)
 Accessing Characters in Strings by Index
 In Python counting starts from 0, the first letter of the string is 0 and the last letter of the string is the length of the string - 1
 
-```
+```py
 name = 'Tina_Bui'
 first_letter = name [0]
 print(first_letter)
@@ -240,7 +247,7 @@ Slicing Python Strings
 Slice string into substring 
 
 
-```
+```py
 name = 'Tina_Bui'
 first_three = name [0:3]
 print(first_three)
@@ -252,21 +259,24 @@ print(last_three)
 ```
 
 Reverse a string
-```
+
+```py
 name = 'Tina_Bui'
 print(name[::-1])
+```
 
-```
 Skipping Characters While Slicing
-```
+
+```py
 a_string[start:stop:step]
 ```
 
-```
+```py
 name = 'Tina_Bui'
 Ta = name[0:5:3] 
 print(Ta)
 ```
+
 - Different string methods
 
 https://www.w3schools.com/python/python_ref_string.asp
@@ -276,7 +286,8 @@ Note: by default default Python‘s print() function ends with a newline
 To print on the same line use end = " "
 
 Eg:
-```
+
+```py
 company = 'Coding For All'
 x = company.split()
 for company in x:
@@ -317,48 +328,49 @@ How to creat list:
 - Using list built-in function
 Eg:
 
-```
+```py
 x = list(('chanel', 'gucci', 'dior'))
 
 print(x)
+```
 
-````
 - created using square brackets:
 
 Eg:
 
-```
+```py
 wish_list = ["chanel", "gucci", "dior"]
 print(wish_list)
 ```
 
-```
+```py
 list = [] # empty list
 print(list)
 ```
 
 - Lists can have items of different data types
-```
+
+```py
 list = ["chanel", 5000, False, 1, "high_end"]
 
 ```
 
 - Accessing List Items Using Positive Indexing
-```
+
+```py
 wish_list = ["chanel", "gucci", "dior"]
 
 first_item = wish_list[0]
-
 ```
+
 - Accessing List Items Using Negative Indexing
 
 -1 refers to the last item, -2 refers to the second last item
 
-```
+```py
 wish_list = ["chanel", "gucci", "dior"]
 
 second_item = wish_list[-2]
-
 ```
 
 - Unpacking List Items
@@ -370,7 +382,8 @@ If you want to unpack the first few elements of a list and don’t care about th
 By putting the asterisk (*) in front of a variable name, you’ll pack the leftover elements into a list and assign them to a variable. 
 
 Eg:
-```
+
+```py
 colors = ['red', 'blue', 'green']
 red, blue, *other = colors
 
@@ -380,19 +393,20 @@ print(other)
 ```
 
 Output:
-```
+
+```py
 red
 blue
 ['green']
-
 ```
+
 https://www.pythontutorial.net/python-basics/python-unpack-list/
 
 - Slicing Items from a List
 We can specify a range of indexes by specifying the start, end and step, the return value will be a new list. (default values for start = 0, end = len(lst) - 1 (last item), step = 1)
 Eg:
 
-```
+```py
 wish_list = ["chanel", "gucci", "dior", "ysl"]
 full_wish_list = wish_list[0:4] # it returns all values
 # this will also give the same result as the one above
@@ -400,25 +414,25 @@ full_wish_list = wish_list[0:] # if we don't set where to stop it takes all the 
 gucci_dior = wish_list[1:3] # it does not include the first index
 gucci_dior_ysl = wish_list[1:]
 gucci_ysl = wish_list[::2] # here we used a 3rd argument, step. It will take every 2cnd item
-
 ```
 
 - Modifying Lists
 
 Eg:
-```
+
+```py
 wish_list = ["chanel", "gucci", "dior", "ysl"]
 wish_list[0] = 'zara'
 print(wish_list)       #  ['zara', 'gucci', 'dior','ysl']
 last_index = len(wish_list - 1
 wish_list[last_index] = 'aje'
 print(fwish_list)        #  ['chanel', 'gucci', 'dior', 'aje']
-
 ```
 - Checking Items in a List
 
 Eg:
-```
+
+```py
 wish_list = ["chanel", "gucci", "dior", "ysl"]
 does_exist = 'channel' in wish_list
 print(does_exist)  # True
@@ -427,47 +441,52 @@ print(does_exist)  # False
 ```
 
 - Adding Items to a List
-```
+
+```py
 # syntax
 lst = list()
 lst.append(item) #To add item to the end of an existing list
 ```
-```
+
+```py
 wish_list = ["chanel", "gucci", "dior", "ysl"]
 wish_list.append('zara')
 print(wish_list)  #['chanel', 'gucci', 'dior', 'ysl','zara']
 ```
 
 - Inserting Items into a List
-```
+
+```py
 # syntax # use insert() method to insert a single item at a specified index in a list. Note that other items are shifted to the right. The insert() methods takes two arguments:index and an item to insert
 lst = ['item1', 'item2']
 lst.insert(index, item)
 ```
-```
+
+```py
 wish_list = ["chanel", "gucci", "dior", "ysl"]
 wish_list.insert(2, 'zara') 
 print(wish_list)           # ['chanel', 'gucci', 'zara', 'dior', 'ysl']
 ```
 
 - Removing Items from a List
-```
+
+```py
 # syntax 
 lst = ['item1', 'item2']
 lst.remove(item)
 ```
 Removing Items Using Pop
 
-```
+```py
 # syntax# pop() method removes the specified index, (or the last item if index is not specified)
 lst = ['item1', 'item2']
 lst.pop()       # last item
 lst.pop(index)
-
 ```
+
 Eg:
 
-```
+```py
 wish_list = ["chanel", "gucci", "dior", "ysl"]
 wish_list.pop()
 print(wish_list       # ['chanel', 'gucci', 'dior']
@@ -475,52 +494,59 @@ print(wish_list       # ['chanel', 'gucci', 'dior']
 
 Removing Items Using Del
 
-```
+```py
 # syntax
 lst = ['item1', 'item2']
 del lst[index] # only a single item
 del lst        # to delete the list completely
-
 ```
+
 Eg:
 
-```
+```py
 wish_list = ["chanel", "gucci", "dior", "ysl"]
 del wish_list[1:3]     # this deletes items between given indexes, so it does not delete the item with index 3!
 print(wish_list)       # ['chanel', 'ysl']
-
 ```
+
 - Clearing List Items
 
-```
+```py
 # syntax #empties the list
 lst = ['item1', 'item2']
 lst.clear()
-
 ```
+
 Eg:
 
-```
+
+```py
 wish_list = ["chanel", "gucci", "dior", "ysl"]
 wish_list.clear()
 print(wish_list)  #[]
 ```
+
 - Copying a List
-```
+
+```py
 # syntax
 lst = ['item1', 'item2']
 lst_copy = lst.copy()
 ```
+
 lst_copy is a reference of lst, any changes make in lst_copy  will also modify the original.
 
 - Joining Lists
-```
+
+```py
 Plus Operator (+)
 # syntax
 list3 = list1 + list2
 ```
+
 Joining using extend() method
-```
+
+```py
 # syntax
 list1 = ['item1', 'item2']
 list2 = ['item3', 'item4', 'item5']
@@ -528,19 +554,24 @@ list1.extend(list2)
 ```
 
 - Counting Items in a List
-```
+
+```py
 # syntax #count() method returns the number of times an item appears in a list
 lst = ['item1', 'item2']
 lst.count(item)
 ```
+
 - Finding Index of an Item
-```
+
+```py
 # syntax
 lst = ['item1', 'item2']
 lst.index(item)
 ```
+
 - Reversing a List
-```
+
+```py
 # syntax
 lst = ['item1', 'item2']
 lst.reverse()
@@ -549,12 +580,14 @@ lst.reverse()
 - Sorting List Items
 
 sort(): this method modifies the original list  in ascending order
-```
+
+```py
 # syntax
 lst = ['item1', 'item2']
 lst.sort()                # ascending
 lst.sort(reverse=True)    # descending
 ```
+
 sorted(): returns the ordered list without modifying the original list
 
 
