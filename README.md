@@ -1,12 +1,21 @@
 * [Day 1:](#day-1)
+   * [Commmand to check python version](#commmand-to-check-python-version)
+   * [Different data types in python:](#different-data-types-in-python)
+      * [1. Number](#1-number)
+      * [2. String](#2-string)
+      * [3. Boolean: True or False data](#3-boolean-true-or-false-data)
+      * [4. List: used to store multiple items in a single variable. List items are ordered, changeable, and allow duplicate values.](#4-list-used-to-store-multiple-items-in-a-single-variable-list-items-are-ordered-changeable-and-allow-duplicate-values)
+      * [5. Dictionary: an unordered collection of data in a key value pair format.](#5-dictionary-an-unordered-collection-of-data-in-a-key-value-pair-format)
+      * [6. Tuple: similar like list but cannot modified once it has been created. Tutples are written with round brackets.](#6-tuple-similar-like-list-but-cannot-modified-once-it-has-been-created-tutples-are-written-with-round-brackets)
+      * [7. Set: is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.](#7-set-is-a-collection-which-is-unordered-unchangeable-and-unindexed-no-duplicate-members)
 * [Day 2:](#day-2)
 * [Day 3:](#day-3)
 * [Day 4:](#day-4)
 * [Day 5:](#day-5)
 
-## Day 1:
+# Day 1:
 
-- Commmand to check python version 
+## Commmand to check python version 
 
 python --version
 
@@ -22,27 +31,30 @@ Noted: use * to represent multiply in python not x
 
 - to start a comment in python use #. For multiple comments, write them in between two triple quotes set """
 - python file has an extension .py
-- different data types in python:
-1. Number
+
+##  Different data types in python:
+
+### 1. Number
 a. Integer: Round numbers
 b. Float: numbers with decimala
 
-2. String 
-3. Boolean: True or False data
-4. List: used to store multiple items in a single variable. List items are ordered, changeable, and allow duplicate values.
+### 2. String 
+### 3. Boolean: True or False data
+### 4. List: used to store multiple items in a single variable. List items are ordered, changeable, and allow duplicate values.
 
 Example:
 
-```
+```py
 >>> thislist = ["apple", "banana", "cherry", "apple", "cherry"]
 >>> print(thislist)
 ['apple', 'banana', 'cherry', 'apple', 'cherry']
 ```
-5. Dictionary: an unordered collection of data in a key value pair format.
+
+### 5. Dictionary: an unordered collection of data in a key value pair format.
 
 Example:
 
-```
+```py
 >>> thisdict = {
 ...   "brand": "Ford",
 ...   "model": "Mustang",
@@ -52,7 +64,8 @@ Example:
 {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
 >>>
 ```
-6. Tuple: similar like list but cannot modified once it has been created. Tutples are written with round brackets.
+
+### 6. Tuple: similar like list but cannot modified once it has been created. Tutples are written with round brackets.
 
 Example:
 
@@ -62,7 +75,8 @@ Example:
 ('apple', 'banana', 'cherry')
 >>>
 ```
-7. Set: is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+
+### 7. Set: is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 
 Example: duplicate value will be ignored. 
 
@@ -73,10 +87,12 @@ Example: duplicate value will be ignored.
 ```
 - use type () command to check data types:
 
-```>>> type ((1,2,4,10))
+```py
+>>> type ((1,2,4,10))
 <class 'tuple'>
 ```
-## Day 2:
+
+# Day 2:
 
 - List of python build-in function:
 
@@ -113,7 +129,7 @@ number_integer 234
 >>> print('number_float', float(number_string))
 number_float 234.56
 ```
-## Day 3:
+# Day 3:
 
 - Boolean represents one of two values: True and False with the first letter should be capital.
 - Different types of opperators:
@@ -144,7 +160,7 @@ They are used to compare two values and check if a value is greater or less or e
 
 They are used to combine conditional statement. Key words are and, or and not.
 
-## Day 4:
+# Day 4:
 
 - Strings are any data type written as a text. Strings are surrounded by single, double or triple quotes. 
 
@@ -294,7 +310,7 @@ for company in x:
     print(company [0], end="")
 ```
 
-## Day 5:
+# Day 5:
 
 There are 4 buil-in data types in Python used to stored data namely: list, tuple. set, dictionary.
 
