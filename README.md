@@ -13,6 +13,104 @@
 * [Day 4:](#day-4)
 * [Day 5:](#day-5)
 
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+    ~/De/Learning Python  ./gh-md-toc ./Python/README.md
+
+Table of Contents
+=================
+
+* [Day 1:](#day-1)
+   * [Commmand to check python version](#commmand-to-check-python-version)
+   * [Different data types in python:](#different-data-types-in-python)
+      * [1. Number](#1-number)
+      * [2. String](#2-string)
+      * [3. Boolean: True or False data](#3-boolean-true-or-false-data)
+      * [4. List: used to store multiple items in a single variable. List items are ordered, changeable, and allow duplicate values.](#4-list-used-to-store-multiple-items-in-a-single-variable-list-items-are-ordered-changeable-and-allow-duplicate-values)
+      * [5. Dictionary: an unordered collection of data in a key value pair format.](#5-dictionary-an-unordered-collection-of-data-in-a-key-value-pair-format)
+      * [6. Tuple: similar like list but cannot modified once it has been created. Tutples are written with round brackets.](#6-tuple-similar-like-list-but-cannot-modified-once-it-has-been-created-tutples-are-written-with-round-brackets)
+      * [7. Set: is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.](#7-set-is-a-collection-which-is-unordered-unchangeable-and-unindexed-no-duplicate-members)
+* [Day 2:](#day-2)
+* [Day 3:](#day-3)
+* [Day 4:](#day-4)
+* [Day 5:](#day-5)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+    ~/De/Learning Python  ./gh-md-toc ./Python/README.md
+
+Table of Contents
+=================
+
+* [Day 1:](#day-1)
+   * [Commmand to check python version](#commmand-to-check-python-version)
+   * [Different data types in python:](#different-data-types-in-python)
+      * [1. Number](#1-number)
+      * [2. String](#2-string)
+      * [3. Boolean: True or False data](#3-boolean-true-or-false-data)
+      * [4. List: used to store multiple items in a single variable. List items are ordered, changeable, and allow duplicate values.](#4-list-used-to-store-multiple-items-in-a-single-variable-list-items-are-ordered-changeable-and-allow-duplicate-values)
+      * [5. Dictionary: an unordered collection of data in a key value pair format.](#5-dictionary-an-unordered-collection-of-data-in-a-key-value-pair-format)
+      * [6. Tuple: similar like list but cannot modified once it has been created. Tutples are written with round brackets.](#6-tuple-similar-like-list-but-cannot-modified-once-it-has-been-created-tutples-are-written-with-round-brackets)
+      * [7. Set: is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.](#7-set-is-a-collection-which-is-unordered-unchangeable-and-unindexed-no-duplicate-members)
+* [Day 2:](#day-2)
+   * [List of python build-in function:](#list-of-python-build-in-function)
+   * [Variables are containers for storing data values.](#variables-are-containers-for-storing-data-values)
+   * [Python Variable Rules:](#python-variable-rules)
+   * [Example of valid variable name:](#example-of-valid-variable-name)
+   * [Example of invalid variable name:](#example-of-invalid-variable-name)
+   * [Casting is converting one data type to another data type:](#casting-is-converting-one-data-type-to-another-data-type)
+   * [Example convert string to interger and string to float:](#example-convert-string-to-interger-and-string-to-float)
+* [Day 3:](#day-3)
+   * [Boolean represents one of two values: True and False with the first letter should be capital.](#boolean-represents-one-of-two-values-true-and-false-with-the-first-letter-should-be-capital)
+   * [Different types of opperators:](#different-types-of-opperators)
+      * [1. Assignment operators:](#1-assignment-operators)
+      * [2. Arithmetic operators:](#2-arithmetic-operators)
+      * [3. Comparasion operators:](#3-comparasion-operators)
+      * [4. Logical operators:](#4-logical-operators)
+* [Day 4:](#day-4)
+   * [Strings are any data type written as a text. Strings are surrounded by single, double or triple quotes.](#strings-are-any-data-type-written-as-a-text-strings-are-surrounded-by-single-double-or-triple-quotes)
+   * [String Concatenation is merging strings together.](#string-concatenation-is-merging-strings-together)
+   * [Escape sequences:  \ followed by a character is an escape sequence.](#escape-sequences---followed-by-a-character-is-an-escape-sequence)
+   * [String format:](#string-format)
+      * [Old Style String Formatting (% Operator):](#old-style-string-formatting--operator)
+      * [New Style String Formatting (str.format)(python version 3)](#new-style-string-formatting-strformatpython-version-3)
+      * [String Interpolation / f-Strings (Python 3.6+)](#string-interpolation--f-strings-python-36)
+   * [Python Strings as Sequences of Characters](#python-strings-as-sequences-of-characters)
+      * [Unpacking Characters](#unpacking-characters)
+      * [Accessing Characters in Strings by Index](#accessing-characters-in-strings-by-index)
+   * [Slicing Python Strings](#slicing-python-strings)
+      * [Slice string into substring](#slice-string-into-substring)
+      * [Reverse a string](#reverse-a-string)
+      * [Skipping Characters While Slicing](#skipping-characters-while-slicing)
+   * [Different string methods](#different-string-methods)
+* [Day 5:](#day-5)
+   * [There are 4 buil-in data types in Python used to stored data namely: list, tuple. set, dictionary.](#there-are-4-buil-in-data-types-in-python-used-to-stored-data-namely-list-tuple-set-dictionary)
+      * [List:](#list)
+      * [Tutple](#tutple)
+      * [Set](#set)
+      * [Dictionary:](#dictionary)
+   * [How to creat list:](#how-to-creat-list)
+      * [Using list built-in function](#using-list-built-in-function)
+      * [created using square brackets:](#created-using-square-brackets)
+      * [Lists can have items of different data types](#lists-can-have-items-of-different-data-types)
+      * [Accessing List Items Using Positive Indexing](#accessing-list-items-using-positive-indexing)
+      * [Accessing List Items Using Negative Indexing](#accessing-list-items-using-negative-indexing)
+   * [Unpacking List Items](#unpacking-list-items)
+   * [Slicing Items from a List](#slicing-items-from-a-list)
+   * [Modifying Lists](#modifying-lists)
+   * [Checking Items in a List](#checking-items-in-a-list)
+   * [Adding Items to a List](#adding-items-to-a-list)
+   * [Inserting Items into a List](#inserting-items-into-a-list)
+   * [Removing Items from a List](#removing-items-from-a-list)
+      * [Removing Items Using Pop](#removing-items-using-pop)
+      * [Removing Items Using Del](#removing-items-using-del)
+   * [Clearing List Items](#clearing-list-items)
+   * [Copying a List](#copying-a-list)
+   * [Joining Lists](#joining-lists)
+      * [Joining using extend() method](#joining-using-extend-method)
+   * [Counting Items in a List](#counting-items-in-a-list)
+   * [Finding Index of an Item](#finding-index-of-an-item)
+   * [Reversing a List](#reversing-a-list)
+   * [Sorting List Items](#sorting-list-items)
+
 # Day 1:
 
 ## Commmand to check python version 
@@ -94,31 +192,31 @@ Example: duplicate value will be ignored.
 
 # Day 2:
 
-- List of python build-in function:
+## List of python build-in function:
 
 https://docs.python.org/3.9/library/functions.html
 
 
-- Variables are containers for storing data values. 
+## Variables are containers for storing data values. 
 
-- Python Variable Rules:
+## Python Variable Rules:
 
 1. must start with a letter or underscore character
 2. cannot start with a number
 3. can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 4. case-sensitive 
 
-- Example of valid variable name:
+## Example of valid variable name:
 firstname
 last_name
 
-- Example of invalid variable name:
+## Example of invalid variable name:
 first-name
 last-name
 
-- Casting is converting one data type to another data type:
+## Casting is converting one data type to another data type:
 
-- Example convert string to interger and string to float:
+## Example convert string to interger and string to float:
 
 ```py
 >>> number_string=234.56
@@ -131,16 +229,16 @@ number_float 234.56
 ```
 # Day 3:
 
-- Boolean represents one of two values: True and False with the first letter should be capital.
-- Different types of opperators:
+## Boolean represents one of two values: True and False with the first letter should be capital.
+## Different types of opperators:
 Link to examples of different typea of operators:
 https://www.w3schools.com/python/python_operators.asp
 
-1. Assignment operators:
+### 1. Assignment operators:
 
 They are used to assign values to variables. 
 
-2. Arithmetic operators:
+### 2. Arithmetic operators:
 
 They are used with numberic values to perform commmon mathematical operators.
 
@@ -152,19 +250,19 @@ Modulus(%): a % b
 Floor division(//): a // b
 Exponentiation(**): a ** b
 
-3. Comparasion operators:
+### 3. Comparasion operators:
 
 They are used to compare two values and check if a value is greater or less or equal to other value.
 
-4. Logical operators:
+### 4. Logical operators:
 
 They are used to combine conditional statement. Key words are and, or and not.
 
 # Day 4:
 
-- Strings are any data type written as a text. Strings are surrounded by single, double or triple quotes. 
+## Strings are any data type written as a text. Strings are surrounded by single, double or triple quotes. 
 
-- String Concatenation is merging strings together.
+## String Concatenation is merging strings together.
 
 Eg:
 
@@ -174,7 +272,7 @@ Eg:
 >>> full_name=first_name + " " + last_name
 >>> print(full_name)
 ```
-- Escape sequences:  \ followed by a character is an escape sequence.
+## Escape sequences:  \ followed by a character is an escape sequence.
 
 \n: new line
 
@@ -191,9 +289,9 @@ Eg:
 
 print('How are you?\nAnd you ?')
 
-- String format:
+## String format:
 
-Old Style String Formatting (% Operator):
+### Old Style String Formatting (% Operator):
 %s - String (or any object with a string representation, like numbers)
 %d - Integers
 %f - Floating point numbers
@@ -209,7 +307,7 @@ formated_string = 'The area of triangle with base = %d and height = %d is %d.' %
 print(formated_string)
 ```
 
-New Style String Formatting (str.format)(python version 3)
+### New Style String Formatting (str.format)(python version 3)
 Eg:
 
 ```py
@@ -220,7 +318,7 @@ formated_string = 'The area of triangle with base = {} and height = {} is {}'.fo
 print(formated_string)
 ```
 
-String Interpolation / f-Strings (Python 3.6+)
+### String Interpolation / f-Strings (Python 3.6+)
 
 String start with f - f.string and data can be injected in their corresponding position.
 
@@ -231,9 +329,9 @@ a = 2
 b = 4
 print(f'1/2 * {a} * {b} = {1/2*a*b}')
 ```
-- Python Strings as Sequences of Characters
+## Python Strings as Sequences of Characters
 
-Unpacking Characters
+### Unpacking Characters
 
 ```py
 name = 'Tina_Bui'
@@ -247,7 +345,7 @@ print(f)
 print(g) 
 print(h)
 ```
-Accessing Characters in Strings by Index
+### Accessing Characters in Strings by Index
 In Python counting starts from 0, the first letter of the string is 0 and the last letter of the string is the length of the string - 1
 
 ```py
@@ -258,9 +356,9 @@ last_letter = name[-1]
 print(last_letter)
 ```
 
-Slicing Python Strings
+## Slicing Python Strings
 
-Slice string into substring 
+### Slice string into substring 
 
 
 ```py
@@ -274,14 +372,14 @@ last_three = name[-3:]
 print(last_three)
 ```
 
-Reverse a string
+### Reverse a string
 
 ```py
 name = 'Tina_Bui'
 print(name[::-1])
 ```
 
-Skipping Characters While Slicing
+### Skipping Characters While Slicing
 
 ```py
 a_string[start:stop:step]
@@ -293,7 +391,7 @@ Ta = name[0:5:3]
 print(Ta)
 ```
 
-- Different string methods
+## Different string methods
 
 https://www.w3schools.com/python/python_ref_string.asp
 
@@ -312,36 +410,36 @@ for company in x:
 
 # Day 5:
 
-There are 4 buil-in data types in Python used to stored data namely: list, tuple. set, dictionary.
+## There are 4 buil-in data types in Python used to stored data namely: list, tuple. set, dictionary.
 
 They are collection which are:
 
-List:
+### List:
 - ordered 
 - changeable
 - allows duplicate members
 - can be empty or have different data type items
 - indexed, the first item has index [0]
 
-Tutple
+### Tutple
 - ordered
 - unchangeable or unmodifiable(imutable)
 - allow duplicate members
 
-Set
+### Set
 - unordered
 - un-indexed and unmodofiable
 - allow new items to the set
 - not alllow duplicate members
 
-Dictionary:
+### Dictionary:
 - unordered
 - changeable(modifiable) and indexed
 - not alllow duplicate members
 
-How to creat list:
+## How to creat list:
 
-- Using list built-in function
+### Using list built-in function
 Eg:
 
 ```py
@@ -350,7 +448,7 @@ x = list(('chanel', 'gucci', 'dior'))
 print(x)
 ```
 
-- created using square brackets:
+### created using square brackets:
 
 Eg:
 
@@ -364,14 +462,14 @@ list = [] # empty list
 print(list)
 ```
 
-- Lists can have items of different data types
+### Lists can have items of different data types
 
 ```py
 list = ["chanel", 5000, False, 1, "high_end"]
 
 ```
 
-- Accessing List Items Using Positive Indexing
+### Accessing List Items Using Positive Indexing
 
 ```py
 wish_list = ["chanel", "gucci", "dior"]
@@ -379,7 +477,7 @@ wish_list = ["chanel", "gucci", "dior"]
 first_item = wish_list[0]
 ```
 
-- Accessing List Items Using Negative Indexing
+### Accessing List Items Using Negative Indexing
 
 -1 refers to the last item, -2 refers to the second last item
 
@@ -389,7 +487,7 @@ wish_list = ["chanel", "gucci", "dior"]
 second_item = wish_list[-2]
 ```
 
-- Unpacking List Items
+## Unpacking List Items
 
 If you want to unpack the first few elements of a list and don’t care about the other elements, you can:
 
@@ -418,7 +516,7 @@ blue
 
 https://www.pythontutorial.net/python-basics/python-unpack-list/
 
-- Slicing Items from a List
+## Slicing Items from a List
 We can specify a range of indexes by specifying the start, end and step, the return value will be a new list. (default values for start = 0, end = len(lst) - 1 (last item), step = 1)
 Eg:
 
@@ -432,7 +530,7 @@ gucci_dior_ysl = wish_list[1:]
 gucci_ysl = wish_list[::2] # here we used a 3rd argument, step. It will take every 2cnd item
 ```
 
-- Modifying Lists
+## Modifying Lists
 
 Eg:
 
@@ -444,7 +542,7 @@ last_index = len(wish_list - 1
 wish_list[last_index] = 'aje'
 print(fwish_list)        #  ['chanel', 'gucci', 'dior', 'aje']
 ```
-- Checking Items in a List
+## Checking Items in a List
 
 Eg:
 
@@ -456,7 +554,7 @@ does_exist = 'zara' in wish_list
 print(does_exist)  # False
 ```
 
-- Adding Items to a List
+## Adding Items to a List
 
 ```py
 # syntax
@@ -470,7 +568,7 @@ wish_list.append('zara')
 print(wish_list)  #['chanel', 'gucci', 'dior', 'ysl','zara']
 ```
 
-- Inserting Items into a List
+## Inserting Items into a List
 
 ```py
 # syntax # use insert() method to insert a single item at a specified index in a list. Note that other items are shifted to the right. The insert() methods takes two arguments:index and an item to insert
@@ -484,14 +582,14 @@ wish_list.insert(2, 'zara')
 print(wish_list)           # ['chanel', 'gucci', 'zara', 'dior', 'ysl']
 ```
 
-- Removing Items from a List
+## Removing Items from a List
 
 ```py
 # syntax 
 lst = ['item1', 'item2']
 lst.remove(item)
 ```
-Removing Items Using Pop
+### Removing Items Using Pop
 
 ```py
 # syntax# pop() method removes the specified index, (or the last item if index is not specified)
@@ -508,7 +606,7 @@ wish_list.pop()
 print(wish_list       # ['chanel', 'gucci', 'dior']
 ```
 
-Removing Items Using Del
+### Removing Items Using Del
 
 ```py
 # syntax
@@ -525,7 +623,7 @@ del wish_list[1:3]     # this deletes items between given indexes, so it does no
 print(wish_list)       # ['chanel', 'ysl']
 ```
 
-- Clearing List Items
+## Clearing List Items
 
 ```py
 # syntax #empties the list
@@ -542,7 +640,7 @@ wish_list.clear()
 print(wish_list)  #[]
 ```
 
-- Copying a List
+## Copying a List
 
 ```py
 # syntax
@@ -552,7 +650,7 @@ lst_copy = lst.copy()
 
 lst_copy is a reference of lst, any changes make in lst_copy  will also modify the original.
 
-- Joining Lists
+## Joining Lists
 
 ```py
 Plus Operator (+)
@@ -560,7 +658,7 @@ Plus Operator (+)
 list3 = list1 + list2
 ```
 
-Joining using extend() method
+### Joining using extend() method
 
 ```py
 # syntax
@@ -569,7 +667,7 @@ list2 = ['item3', 'item4', 'item5']
 list1.extend(list2)
 ```
 
-- Counting Items in a List
+##  Counting Items in a List
 
 ```py
 # syntax #count() method returns the number of times an item appears in a list
@@ -577,7 +675,7 @@ lst = ['item1', 'item2']
 lst.count(item)
 ```
 
-- Finding Index of an Item
+## Finding Index of an Item
 
 ```py
 # syntax
@@ -585,7 +683,7 @@ lst = ['item1', 'item2']
 lst.index(item)
 ```
 
-- Reversing a List
+## Reversing a List
 
 ```py
 # syntax
@@ -593,7 +691,7 @@ lst = ['item1', 'item2']
 lst.reverse()
 ```
 
-- Sorting List Items
+## Sorting List Items
 
 sort(): this method modifies the original list  in ascending order
 
