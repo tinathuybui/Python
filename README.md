@@ -1,42 +1,3 @@
-* [Day 1:](#day-1)
-   * [Commmand to check python version](#commmand-to-check-python-version)
-   * [Different data types in python:](#different-data-types-in-python)
-      * [1. Number](#1-number)
-      * [2. String](#2-string)
-      * [3. Boolean: True or False data](#3-boolean-true-or-false-data)
-      * [4. List: used to store multiple items in a single variable. List items are ordered, changeable, and allow duplicate values.](#4-list-used-to-store-multiple-items-in-a-single-variable-list-items-are-ordered-changeable-and-allow-duplicate-values)
-      * [5. Dictionary: an unordered collection of data in a key value pair format.](#5-dictionary-an-unordered-collection-of-data-in-a-key-value-pair-format)
-      * [6. Tuple: similar like list but cannot modified once it has been created. Tutples are written with round brackets.](#6-tuple-similar-like-list-but-cannot-modified-once-it-has-been-created-tutples-are-written-with-round-brackets)
-      * [7. Set: is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.](#7-set-is-a-collection-which-is-unordered-unchangeable-and-unindexed-no-duplicate-members)
-* [Day 2:](#day-2)
-* [Day 3:](#day-3)
-* [Day 4:](#day-4)
-* [Day 5:](#day-5)
-
-<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-    ~/De/Learning Python  ./gh-md-toc ./Python/README.md
-
-Table of Contents
-=================
-
-* [Day 1:](#day-1)
-   * [Commmand to check python version](#commmand-to-check-python-version)
-   * [Different data types in python:](#different-data-types-in-python)
-      * [1. Number](#1-number)
-      * [2. String](#2-string)
-      * [3. Boolean: True or False data](#3-boolean-true-or-false-data)
-      * [4. List: used to store multiple items in a single variable. List items are ordered, changeable, and allow duplicate values.](#4-list-used-to-store-multiple-items-in-a-single-variable-list-items-are-ordered-changeable-and-allow-duplicate-values)
-      * [5. Dictionary: an unordered collection of data in a key value pair format.](#5-dictionary-an-unordered-collection-of-data-in-a-key-value-pair-format)
-      * [6. Tuple: similar like list but cannot modified once it has been created. Tutples are written with round brackets.](#6-tuple-similar-like-list-but-cannot-modified-once-it-has-been-created-tutples-are-written-with-round-brackets)
-      * [7. Set: is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.](#7-set-is-a-collection-which-is-unordered-unchangeable-and-unindexed-no-duplicate-members)
-* [Day 2:](#day-2)
-* [Day 3:](#day-3)
-* [Day 4:](#day-4)
-* [Day 5:](#day-5)
-
-<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-    ~/De/Learning Python  ./gh-md-toc ./Python/README.md
-
 Table of Contents
 =================
 
@@ -223,10 +184,12 @@ last-name
 >>> print('number_integer',int(number_string))
 number_integer 234
 ```
-```
+
+```py
 >>> print('number_float', float(number_string))
 number_float 234.56
 ```
+
 # Day 3:
 
 ## Boolean represents one of two values: True and False with the first letter should be capital.

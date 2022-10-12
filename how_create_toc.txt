@@ -10,5 +10,5 @@ From Python Folder
 cd Desktop/Learning\ Python/Python
 
 git add .
-git add .
+git commit -m "Meaningful message"
 git push
