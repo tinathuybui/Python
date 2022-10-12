@@ -667,4 +667,7 @@ lst.sort(reverse=True)    # descending
 
 sorted(): returns the ordered list without modifying the original list
 
+# Day 6:
+
+
 
