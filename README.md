@@ -1,6 +1,7 @@
 Table of Contents
 =================
 
+* [Table of Contents](#table-of-contents)
 * [Day 1:](#day-1)
    * [Commmand to check python version](#commmand-to-check-python-version)
    * [Different data types in python:](#different-data-types-in-python)
@@ -71,6 +72,77 @@ Table of Contents
    * [Finding Index of an Item](#finding-index-of-an-item)
    * [Reversing a List](#reversing-a-list)
    * [Sorting List Items](#sorting-list-items)
+* [Day6:](#day6)
+   * [Create a tuple](#create-a-tuple)
+   * [Tuples length](#tuples-length)
+   * [Accessing Tuple Items](#accessing-tuple-items)
+   * [Slicing tuples](#slicing-tuples)
+   * [Changing Tuple to a List](#changing-tuple-to-a-list)
+   * [Checking an Item in a Tuple](#checking-an-item-in-a-tuple)
+   * [Joining Tuples](#joining-tuples)
+   * [Deleting Tuples](#deleting-tuples)
+* [Day7:](#day7)
+   * [Sets](#sets)
+   * [A set is a collection](#a-set-is-a-collection)
+* [A set is used to store multiple items in a single variable](#a-set-is-used-to-store-multiple-items-in-a-single-variable)
+* [A set is written with curly brackets](#a-set-is-written-with-curly-brackets)
+* [Create a set](#create-a-set)
+   * [Creating a set with initial items](#creating-a-set-with-initial-items)
+   * [Getting set'length](#getting-setlength)
+   * [Checking an Item](#checking-an-item)
+   * [Adding Items to a Set](#adding-items-to-a-set)
+   * [Removing Items from a Set](#removing-items-from-a-set)
+   * [Clearing Items in a Set](#clearing-items-in-a-set)
+   * [Deleting a Set](#deleting-a-set)
+   * [Converting List to Set](#converting-list-to-set)
+   * [Joining Sets](#joining-sets)
+   * [Checking Subset and Super Set](#checking-subset-and-super-set)
+   * [Checking the Difference Between Two Sets](#checking-the-difference-between-two-sets)
+* [The syntax returns the differences between two sets](#the-syntax-returns-the-differences-between-two-sets)
+   * [Finding Symmetric Difference Between Two Sets](#finding-symmetric-difference-between-two-sets)
+   * [Joining Sets](#joining-sets-1)
+   * [check if two sets are joint or disjoint using isdisjoint() method.](#check-if-two-sets-are-joint-or-disjoint-using-isdisjoint-method)
+* [Day8:](#day8)
+   * [Dictionaries](#dictionaries)
+   * [A dictionary is a collection of unordered, modifiable(mutable) paired (key: value) data type.](#a-dictionary-is-a-collection-of-unordered-modifiablemutable-paired-key-value-data-type)
+   * [Creating a Dictionary](#creating-a-dictionary)
+   * [Dictionary Length](#dictionary-length)
+   * [Accessing Dictionary Items](#accessing-dictionary-items)
+   * [Modifying Items in a Dictionary](#modifying-items-in-a-dictionary)
+   * [Checking keys](#checking-keys)
+   * [Removing Key and Value Pairs](#removing-key-and-value-pairs)
+   * [change dictionary to a list of items](#change-dictionary-to-a-list-of-items)
+   * [Clearing a Dictionary](#clearing-a-dictionary)
+   * [Deleting a Dictionary](#deleting-a-dictionary)
+   * [Copy a Dictionary](#copy-a-dictionary)
+   * [Getting Dictionary Keys as a List](#getting-dictionary-keys-as-a-list)
+   * [Getting Dictionary Values as a List](#getting-dictionary-values-as-a-list)
+* [Day9:Conditionals](#day9conditionals)
+   * [If condition](#if-condition)
+   * [If Else](#if-else)
+   * [If Elif Else](#if-elif-else)
+   * [Shorthand If Else](#shorthand-if-else)
+      * [Nested If](#nested-if)
+   * [If condition and logical operators](#if-condition-and-logical-operators)
+   * [If and Or](#if-and-or)
+* [Day 10: Loops](#day-10-loops)
+   * [While loop](#while-loop)
+   * [Break and continute](#break-and-continute)
+   * [For loop](#for-loop)
+   * [Range function](#range-function)
+   * [Nested for loop](#nested-for-loop)
+   * [For Else](#for-else)
+   * [Pass](#pass)
+* [Day 11:](#day-11)
+   * [Functions](#functions)
+      * [Definition](#definition)
+      * [Declaring and Calling a Function](#declaring-and-calling-a-function)
+      * [Function without Parameters](#function-without-parameters)
+      * [Use return function to return values](#use-return-function-to-return-values)
+      * [Function with Parameters](#function-with-parameters)
+      * [Passing Arguments with Key and Value](#passing-arguments-with-key-and-value)
+      * [Function with Default Parameters](#function-with-default-parameters)
+      * [Arbitrary Number of Arguments](#arbitrary-number-of-arguments)
 
 # Day 1:
 
@@ -667,4 +739,728 @@ lst.sort(reverse=True)    # descending
 
 sorted(): returns the ordered list without modifying the original list
 
+# Day6:
+Tuples is a collection which is ordered and unchangeable.
+Tuples are written with round bracket.
+
+## Create a tuple
+- empty tuple
+
+```py
+empty_tuple = ()
+```
+- tuple with initial values
+
+```py
+# syntax
+tpl = ('item1', 'item2','item3')
+```
+## Tuples length
+
+```py
+# syntax
+tpl = ('item1', 'item2', 'item3')
+len(tpl)
+```
+## Accessing Tuple Items
+- Positive Indexing
+```py 
+# Syntax
+tpl = ('item1', 'item2', 'item3')
+first_item = tpl[0]
+second_item = tpl[1]
+```
+- Negative Indexing: -1 refer to the last item
+
+```py 
+# Syntax
+tpl = ('item1', 'item2', 'item3','item4')
+first_item = tpl[-4]
+second_item = tpl[-3]
+```
+## Slicing tuples
+
+- Range of Positive Indexes
+```py 
+# Syntax
+tpl = ('item1', 'item2', 'item3','item4')
+all_items = tpl[0:4]         # all items
+all_items = tpl[0:]         # all items
+middle_two_items = tpl[1:3]  # does not include item at index 3
+``` 
+- Range of Negative Indexes
+
+```py 
+# Syntax
+tpl = ('item1', 'item2', 'item3','item4')
+all_items = tpl[-4:]         # all items
+middle_two_items = tpl[-3:-1]  # does not include item at index 3 (-1)
+```
+## Changing Tuple to a List
+
+```py
+# Syntax
+tpl = ('item1', 'item2', 'item3','item4')
+lst = list(tpl)
+```
+## Checking an Item in a Tuple
+
+```py
+# Syntax
+tpl = ('item1', 'item2', 'item3','item4')
+'item2' in tpl # True
+```
+## Joining Tuples
+
+```py
+# syntax
+tpl1 = ('item1', 'item2', 'item3')
+tpl2 = ('item4', 'item5','item6')
+tpl3 = tpl1 + tpl2
+```
+## Deleting Tuples
+
+```py
+# syntax
+tpl1 = ('item1', 'item2', 'item3')
+del tpl1
+```
+
+# Day7:
+## Sets
+## A set is a collection
+- unordered
+- unchangeable ( but can remove and add new items)
+- unindexed
+# A set is used to store multiple items in a single variable
+# A set is written with curly brackets
+# Create a set
+
+```py
+# syntax
+st = {}
+# or
+st = set()
+```
+
+## Creating a set with initial items
+
+```py
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+```
+## Getting set'length
+
+```py
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+len(st)
+```
+## Checking an Item
+
+```py
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+print("Does set st contain item3? ", 'item3' in st) # Does set st contain item3? True
+```
+## Adding Items to a Set
+
+- Add one item using add()
+
+```py
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+st.add('item5')
+```
+- Add multiple items using update()
+
+```py
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+st.update(['item5','item6','item7'])
+```
+## Removing Items from a Set
+
+```py
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+st.remove('item2')
+```
+- The pop() methods remove a random item from a list 
+
+```py
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+fruits.pop()  # removes a random item from the set
+```
+
+## Clearing Items in a Set
+
+```py
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+st.clear()
+```
+## Deleting a Set
+
+```py
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+del st
+```
+## Converting List to Set
+
+- Converting set to a list removing duplicates 
+
+```py
+# syntax
+lst = ['item1', 'item2', 'item3', 'item4', 'item1']
+st = set(lst)  # {'item2', 'item4', 'item1', 'item3'} - the order is random, because sets in general are unordered
+```
+
+## Joining Sets
+
+- Union This method returns a new set
+
+```py
+# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item5', 'item6', 'item7', 'item8'}
+st3 = st1.union(st2)
+```
+
+- Update This method inserts a set into a given set
+
+```py
+# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item5', 'item6', 'item7', 'item8'}
+st1.update(st2) # st2 contents are added to st1
+```
+## Checking Subset and Super Set
+
+A set can be a subset or super set of other sets:
+
+Subset: issubset()
+Super set: issuperset
+
+```py
+# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item2', 'item3'}
+st2.issubset(st1) # True
+st1.issuperset(st2) # True
+```
+## Checking the Difference Between Two Sets
+
+# The syntax returns the differences between two sets
+
+```py
+# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item2', 'item3'}
+st2.difference(st1) # set()
+st1.difference(st2) # {'item1', 'item4'} => st1\st2
+```
+## Finding Symmetric Difference Between Two Sets
+
+- It returns a set that contains all items from both sets, except items that are present in both sets, mathematically: (A\B) ∪ (B\A)
+
+```py
+# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item2', 'item3'}
+# it means (A\B)∪(B\A)
+st2.symmetric_difference(st1) # {'item1', 'item4'}
+```
+## Joining Sets
+
+## check if two sets are joint or disjoint using isdisjoint() method.
+
+```py
+# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item2', 'item3'}
+st2.isdisjoint(st1) # False
+```
+# Day8:
+## Dictionaries
+## A dictionary is a collection of unordered, modifiable(mutable) paired (key: value) data type.
+
+## Creating a Dictionary
+```py
+# syntax
+empty_dict = {}
+# Dictionary with data values
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+```
+## Dictionary Length
+```py
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print(len(dct)) # 4
+```
+## Accessing Dictionary Items
+
+- access Dictionary items by referring to its key name
+```py
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print(dct['key1']) # value1
+```
+- or can access used get method
+
+```py
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = thisdict.get("model")
+print(x)
+```
+
+## Modifying Items in a Dictionary
+```py
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+dct['key1'] = 'value-one'
+```
+## Checking keys
+
+```py
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print('key2' in dct) # True
+print('key5' in dct) # False
+```
+## Removing Key and Value Pairs
+```py
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+dct.pop('key1') # removes key1 item
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+dct.popitem() # removes the last item
+del dct['key2'] # removes key2 item
+```
+## change dictionary to a list of items
+```py
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print(dct.items()) # dict_items([('key1', 'value1'), ('key2', 'value2'), ('key3', 'value3'), ('key4', 'value4')])
+```
+## Clearing a Dictionary
+
+```py
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print(dct.clear()) # None
+```
+
+## Deleting a Dictionary
+
+```py
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+del dct
+```
+
+## Copy a Dictionary
+
+```py
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+dct_copy = dct.copy() # {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+```
+## Getting Dictionary Keys as a List
+
+```py
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+keys = dct.keys()
+print(keys)     # dict_keys(['key1', 'key2', 'key3', 'key4'])
+```
+## Getting Dictionary Values as a List
+
+```py
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+values = dct.values()
+print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
+```
+# Day9:Conditionals
+
+## If condition
+
+Use to check if a condition is true and to execute the block code.
+
+```py
+# syntax
+if condition:
+    this part of code runs for truthy conditions
+```
+
+## If Else
+
+If condition is true the first block will be executed, if not the else condition will run. 
+
+```py
+# syntax
+if condition:
+    this part of code runs for truthy conditions
+else:
+     this part of code runs for false conditions
+```
+
+## If Elif Else
+
+Use elif when have multiple conditions. 
+
+``` py
+# syntax
+if condition:
+    code
+elif condition:
+    code
+else:
+    code
+```
+
+![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/var/folders/qh/53ry_phd7lv7rdrt9dlzt7_80000gn/T/TemporaryItems/NSIRD_screencaptureui_TrVLIj/Screen%20Shot%202022-11-27%20at%208.19.06%20pm.png?version%3D1669540763820)
+
+Link: https://www.programiz.com/python-programming/if-elif-else
+
+## Shorthand If Else
+
+If only have one statement to execute, one for if, and one for else, can be put on the same line 
+
+``` py
+code if condition else code
+```
+
+### Nested If
+
+This is when have if statements inside another if statements.
+
+``` py
+# syntax
+if condition:
+    code
+    if condition:
+    code
+``` 
+Alternatively, can use logical operator and instead of nested condition. 
+
+## If condition and logical operators
+
+``` py
+# syntax
+if condition and condition:
+    code
+``` 
+## If and Or 
+
+``` py
+# syntax
+if condition or condition:
+    code
+``` 
+
+# Day 10: Loops
+
+To handle repetitive task, programing languages use loops. 
+
+1. while loop
+2. for loop
+
+## While loop
+
+- It is used to execute block of statement repeatly until a given condition is satisfied. When the condition becomes false, the lines of code after the loop will be continued to be executed. 
+
+``` py
+ # syntax
+while condition:
+    code goes here
+``` 
+- If want to run block of code once the condition is no longer true, use else
+
+``` py
+ # syntax
+while condition:
+    code goes here
+else:
+    code goes here
+``` 
+
+## Break and continute 
+
+- Use break when want to get out or stop the loop
+
+``` py
+# syntax
+while condition:
+    code goes here
+    if another_condition:
+        break
+``` 
+
+- Use continute to skip the current iteration
+
+``` py
+ # syntax
+while condition:
+    code goes here
+    if another_condition:
+        continue
+``` 
+## For loop
+
+- loop is used for iterating over a sequence (either a list, a tuple, a dicionary, a set or a string)
+
+``` py
+# syntax
+for iterator in lst:
+    code goes here
+``` 
+
+``` py
+# syntax
+while condition:
+    code goes here
+    if another_condition:
+        break
+``` 
+
+``` py
+  # syntax
+for iterator in sequence:
+    code goes here
+    if condition:
+        continue
+``` 
+## Range function
+- range()function is used list of numbers. The range(start, end, step) takes three parameters: starting, ending and increment. By default it starts from 0 and the increment is 1.
+
+``` py
+# syntax
+for iterator in range(start, end, step):
+``` 
+
+## Nested for loop 
+
+- write loops inside a loop
+
+``` py
+# syntax
+for x in y:
+    for t in x:
+        print(t)
+``` 
+## For Else
+
+- to execute some message when the loop ends
+
+``` py
+# syntax
+for iterator in range(start, end, step):
+    do something
+else:
+    print('The loop ended')
+``` 
+
+## Pass
+
+- use pass to avoid errors or as a placeholder for future statements.
+
+``` py
+for number in range(6):
+    pass
+``` 
+
+# Day 11:
+
+## Functions
+
+### Definition
+
+- Function is a reuseable block of code or programing statements designed to perfom a certain task. Def keyword is use to define a function in Python. 
+
+### Declaring and Calling a Function
+
+``` py
+# syntax
+# Declaring a function
+def function_name():
+    codes
+    codes
+# Calling a function
+function_name()
+``` 
+
+### Function without Parameters
+
+Eg:
+
+``` py
+def generate_full_name ():
+    first_name = 'Asabeneh'
+    last_name = 'Yetayeh'
+    space = ' '
+    full_name = first_name + space + last_name
+    print(full_name)
+generate_full_name () # calling a function
+
+def add_two_numbers ():
+    num_one = 2
+    num_two = 3
+    total = num_one + num_two
+    print(total)
+add_two_numbers()
+``` 
+### Use return function to return values
+
+``` py
+def generate_full_name ():
+    first_name = 'Asabeneh'
+    last_name = 'Yetayeh'
+    space = ' '
+    full_name = first_name + space + last_name
+    return full_name
+print(generate_full_name())
+
+def add_two_numbers ():
+    num_one = 2
+    num_two = 3
+    total = num_one + num_two
+    return total
+print(add_two_numbers())
+``` 
+
+### Function with Parameters
+
+- We can pass different data types as a parameter in a function
+
+- Single parameter:
+
+``` py
+# syntax
+  # Declaring a function
+  def function_name(parameter):
+    codes
+    codes
+  # Calling function
+  print(function_name(argument))
+  ``` 
+Eg: 
+
+``` py
+def learner (name):
+    message = name + ' is learning Python.'
+    return message
+
+print(learner('Tina'))
+
+``` 
+- Two Parameter:
+
+``` py
+ # syntax
+  # Declaring a function
+  def function_name(para1, para2):
+    codes
+    codes
+  # Calling function
+  print(function_name(arg1, arg2))
+``` 
+
+Eg:
+
+``` py
+def generate_full_name (first_name, last_name):
+    space = ' '
+    full_name = first_name + space + last_name
+    return full_name
+print('Full Name: ', generate_full_name('Tina','Bui'))
+``` 
+
+### Passing Arguments with Key and Value
+
+``` py
+# syntax
+# Declaring a function
+def function_name(para1, para2):
+    codes
+    codes
+# Calling function
+print(function_name(para1 = 'John', para2 = 'Doe')) # the order of arguments does not matter here
+``` 
+
+Eg:
+
+``` py
+def generate_full_name (first_name, last_name):
+    space = ' '
+    full_name = first_name + space + last_name
+    return full_name
+print(generate_full_name(first_name = 'Tina', last_name = 'Bui'))
+``` 
+### Function with Default Parameters
+
+``` py
+# syntax
+# Declaring a function
+def function_name(param = value):
+    codes
+    codes
+# Calling function
+function_name()
+function_name(arg)
+``` 
+Eg:
+
+```py
+def learner (name = 'Nancy'):
+   message = name + ' is learning Python.'
+   return message
+
+print(learner('Tina'))
+
+```
+Result: Tina is learning Python.
+
+If we do not pass argument when calling a fucntion, it will return the default value 
+
+```py
+def learner (name = 'Nancy'):
+   message = name + ' is learning Python.'
+   return message
+
+print(learner())
+
+```
+Result: Nancy is learning Python.
+
+### Arbitrary Number of Arguments
+
+If do not know the number of arguments pass to a function, can create a function which can take arbitrary number of arguments by adding * before the parameter name.
+
+```py
+# syntax
+# Declaring a function
+def function_name(*args):
+    codes
+    codes
+# Calling function
+function_name(param1, param2, param3,..)
+```
+
+Eg:
+
+```
+def sum_all_nums(*nums):
+    total = 0
+    for num in nums:
+        total += num     # same as total = total + num 
+    return total
+print(sum_all_nums(2, 3, 5)) # 10
+```
 
