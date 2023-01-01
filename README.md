@@ -737,7 +737,7 @@ lst.sort()                # ascending
 lst.sort(reverse=True)    # descending
 ```
 
-sorted(): returns the ordered list without modifying the original list
+`sorted()`: returns the ordered list without modifying the original list
 
 # Day6:
 Tuples is a collection which is ordered and unchangeable.
